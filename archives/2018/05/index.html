@@ -39,7 +39,25 @@
 
     <link rel="canonical" href="http://yoursite.com"/>
 
-                 
+      
+	
+	<link rel="stylesheet" href="http://osly086qe.bkt.clouddn.com/hexo-infinite-scroll-v1.0.1.min.css">
+    <script src="http://osly086qe.bkt.clouddn.com/hexo-infinite-scroll-v1.0.3.min.js"></script>
+    <script>
+        infiniteScroll({
+        // default options
+          item: '.post',
+          pageSize: 3,
+          time: 400,
+          loading: {
+            enabled: true,
+            style: 'wave',
+            color: '#f78769'
+          }
+        })
+    </script>
+	
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
 </head>
 
 <body class="home-template no-js">
