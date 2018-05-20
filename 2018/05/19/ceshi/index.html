@@ -61,6 +61,7 @@
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
 <link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
 <script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 </html>
 
@@ -187,33 +188,14 @@
   </header>
 
   <section class="post">
-    <div id="aplayer-HwtevMmV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-				<pre class="aplayer-lrc-content">[00:00.00]lrc here</pre>
-			</div>
+    
 			<script>
-				var ap = new APlayer({
-					element: document.getElementById("aplayer-HwtevMmV"),
-					narrow: false,
-					autoplay: true,
-					showlrc: 2,
-					music: {
-						title: "title",
-						author: "author",
-						url: "risou.mp3",
-						pic: "",
-					}
-				});
-				window.aplayers || (window.aplayers = []);
-				window.aplayers.push(ap);
+				console.error("Error: [hexo-tag-aplayer] Specified asset file not found ([)");
 			</script>
-<p>啦啦啦啦啦<br>
-			<script>
-				console.error("Error: [hexo-tag-aplayer] Specified asset file not found ([picture_url,)");
-			</script><br>
-			<script>
-				console.error("SyntaxError: Unexpected token / in JSON at position 48");
-			</script></p>
+<p>啦啦啦啦啦</p>
+<!-- 进阶示例 -->
 
+    <div id="aplayer-ltctryGb" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="60198" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"></div>
   </section>
 
 </article>
@@ -233,7 +215,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&#34;aplayer-vlXRgSuS&#34;),
+            element: document.getElementById(&#34;aplayer-aWsbqYrZ&#34;),
      
                 &hellip;
                 </p>
