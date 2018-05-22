@@ -40,7 +40,10 @@
     <link rel="canonical" href="http://yoursite.com"/>
 
       
-	<script src="jquery.js"></script>
+	
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
 
 	 
  
@@ -192,11 +195,15 @@
       <h2 class="post-list__post-title post-title"><a href="/2018/05/19/ceshi/" title="link to post.title">这是音乐播放器测试</a></h2>
       <p class="excerpt">
     
-      
-			
-				console.error(&#34;Error: [hexo-tag-aplayer] Specified asset file not found (autoplay])&#34;);
-			
+      import ‘aplayer/dist/APlayer.min.css’;import APlayer from ‘aplayer’;
+const ap = new APlayer(options);
 
+
+
+const ap = new APlayer({
+    container: document.getElementById(&#39;aplayer&#39;),
+    audio: [{
+     
     &hellip;
       </p>
       <div class="post-list__meta"><time datetime="2018-05-19T14:05:26.381Z" class="post-list__meta--date date">2018-05-19</time> &#8226; <span class="post-list__meta--tags tags">于 
