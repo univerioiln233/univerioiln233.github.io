@@ -45,6 +45,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
 
+	<link rel="stylesheet" href="APlayer.min.css">
+	<div id="aplayer"></div>
+	<script src="APlayer.min.js"></script>
 	 
  
 </head>
@@ -172,11 +175,11 @@
   </header>
 
   <section class="post">
-    <p>import ‘aplayer/dist/APlayer.min.css’;<br>import APlayer from ‘aplayer’;</p>
-<p>const ap = new APlayer(options);</p>
-<p><link rel="stylesheet" href="APlayer.min.css"></p>
+    <p><link rel="stylesheet" href="APlayer.min.css"></p>
 <p><div id="aplayer"></div></p>
-<script src="APlayer.min.js"></script>
+<script src="APlayer.min.js">
+import 'APlayer/dist/APlayer.min.css';
+import APlayer from 'APlayer';
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     audio: [{
@@ -186,12 +189,7 @@ const ap = new APlayer({
         cover: 'cover.jpg'
     }]
 });
-
-
-<div id="myapcid"></div>
-<script src="scr/Aplayer-Controler.min.js"></script>
-
-<p>var myap = new APlayer({……});  //Aplayer Part<br>var myapc=new APlayer_Controler({  //Controler Part<br>      APC_dom:’#myapcid’,<br>      aplayer:myap,<br>      attach_right:true,<br>      position:{top:’300px’,bottom:’’},<br>      fixed:true,<br>      btn_width:100,<br>      btn_height:120,<br>      img_src:[],<br>      img_style:{repeat:’no-repeat’,position:’center’,size:’contain’},<br>      ctrls_color:’rgba(173,255,47,0.7)’,<br>      ctrls_hover_color:’rgba(255,140,0,0.8)’,<br>      tips_on:true,<br>      tips_width:140,<br>      tips_height:25,<br>      tips_color:’rgba(255,255,255,0.5)’,<br>      tips_content:{<br>          on_loading:{top:’音乐加载中’,bottom:’不如来卖萌’},<br>          on_welcome:{top:’音乐加载完成’,bottom:’请继续看我卖萌’},<br>          on_timeout:{top:’播放器暂无响应’,bottom:’那就看我卖萌’},<br>          on_error:{top:’音乐播放出错’,bottom:’那就看我卖萌’},<br>          on_listend:{top:’歌单已到底部’,bottom:’接着看我卖萌’},<br>          on_nohistory:{top:’没有历史纪录’,bottom:’快去听歌吧！’},<br>          on_historyend:{top:’历史纪录已到头’,bottom:’快去听新歌吧！’}<br>        },<br>      timeout:30,<br>      showOnPhone:false,<br>      songrecord_log:false<br>};</p>
+</script>
 
   </section>
 

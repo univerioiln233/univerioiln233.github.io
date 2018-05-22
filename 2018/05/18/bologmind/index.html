@@ -45,6 +45,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
 
+	<link rel="stylesheet" href="APlayer.min.css">
+	<div id="aplayer"></div>
+	<script src="APlayer.min.js"></script>
 	 
  
 </head>
@@ -197,13 +200,14 @@
                 <h2 class="post-list__post-title post-title"><a href="/2018/05/19/ceshi/" title="这是音乐播放器测试">这是音乐播放器测试</a></h2>
                 <p class="excerpt">
                 
-                import ‘aplayer/dist/APlayer.min.css’;import APlayer from ‘aplayer’;
-const ap = new APlayer(options);
+                
 
 
-
+import &#39;APlayer/dist/APlayer.min.css&#39;;
+import APlayer from &#39;APlayer&#39;;
 const ap = new APlayer({
-    container: docum
+    container: document.getElementById(&#39;aplayer&#39;),
+ 
                 &hellip;
                 </p>
                 <div class="post-list__meta"><time datetime="2018-05-19T14:05:26.381Z" class="post-list__meta--date date">2018-05-19</time> &#8226; <span class="post-list__meta--tags tags">于 
