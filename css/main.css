@@ -496,12 +496,12 @@ code {
   font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
-  padding: 2px 4px;
+  padding: 2px 6px;
   word-wrap: break-word;
-  color: #555;
-  background: #eee;
+  color: #4271ae;
+  background: #000;
   border-radius: 3px;
-  font-size: 13px;
+  font-size: 14px;
 }
 pre {
   padding: 10px;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b40981;
+  background: #ffee9a;
 }
 .links-of-blogroll {
   font-size: 13px;
