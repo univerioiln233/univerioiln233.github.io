@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>秋刀鱼</title>
   
-  
+  <subtitle>很好吃</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/PCjiqiao/"/>
-    <id>http://yoursite.com/PCjiqiao/</id>
+    <link href="http://yoursite.com/2018/06/29/PCjiqiao/"/>
+    <id>http://yoursite.com/2018/06/29/PCjiqiao/</id>
     <published>2018-06-29T15:24:34.902Z</published>
     <updated>2018-06-29T15:24:45.603Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>商业</title>
-    <link href="http://yoursite.com/dalao/"/>
-    <id>http://yoursite.com/dalao/</id>
+    <link href="http://yoursite.com/2018/06/06/dalao/"/>
+    <id>http://yoursite.com/2018/06/06/dalao/</id>
     <published>2018-06-06T01:51:53.859Z</published>
     <updated>2018-06-06T01:53:12.328Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>这是音乐播放器测试3</title>
-    <link href="http://yoursite.com/abc/"/>
-    <id>http://yoursite.com/abc/</id>
+    <link href="http://yoursite.com/2018/05/21/abc/"/>
+    <id>http://yoursite.com/2018/05/21/abc/</id>
     <published>2018-05-21T10:02:35.063Z</published>
     <updated>2018-05-21T10:06:21.035Z</updated>
     
@@ -83,8 +83,8 @@
   
   <entry>
     <title>英语作文 灵感</title>
-    <link href="http://yoursite.com/Enghils/"/>
-    <id>http://yoursite.com/Enghils/</id>
+    <link href="http://yoursite.com/2018/05/19/Enghils/"/>
+    <id>http://yoursite.com/2018/05/19/Enghils/</id>
     <published>2018-05-19T15:31:28.142Z</published>
     <updated>2018-05-30T01:18:22.720Z</updated>
     
@@ -106,8 +106,8 @@
   
   <entry>
     <title>解决Charles乱码问题</title>
-    <link href="http://yoursite.com/bbc/"/>
-    <id>http://yoursite.com/bbc/</id>
+    <link href="http://yoursite.com/2018/05/19/bbc/"/>
+    <id>http://yoursite.com/2018/05/19/bbc/</id>
     <published>2018-05-19T14:05:26.381Z</published>
     <updated>2018-08-09T13:47:48.128Z</updated>
     
@@ -127,8 +127,8 @@
   
   <entry>
     <title>各类观点、想法</title>
-    <link href="http://yoursite.com/bologmind/"/>
-    <id>http://yoursite.com/bologmind/</id>
+    <link href="http://yoursite.com/2018/05/18/bologmind/"/>
+    <id>http://yoursite.com/2018/05/18/bologmind/</id>
     <published>2018-05-18T15:31:27.117Z</published>
     <updated>2018-05-30T01:16:23.201Z</updated>
     
@@ -148,8 +148,8 @@
   
   <entry>
     <title>Sleep position</title>
-    <link href="http://yoursite.com/pillow/"/>
-    <id>http://yoursite.com/pillow/</id>
+    <link href="http://yoursite.com/2018/05/18/pillow/"/>
+    <id>http://yoursite.com/2018/05/18/pillow/</id>
     <published>2018-05-18T04:23:46.717Z</published>
     <updated>2018-05-30T01:52:17.909Z</updated>
     
@@ -169,8 +169,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world/"/>
-    <id>http://yoursite.com/hello-world/</id>
+    <link href="http://yoursite.com/2018/05/18/hello-world/"/>
+    <id>http://yoursite.com/2018/05/18/hello-world/</id>
     <published>2018-05-18T04:05:23.022Z</published>
     <updated>2018-05-30T01:51:49.139Z</updated>
     
