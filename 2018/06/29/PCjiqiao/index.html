@@ -187,10 +187,6 @@
       		<p>假如系统文件被删除或者破坏，用命令sfc /scannow就能够恢复<br><blockquote><p><body> 标签中的背景颜色（bgcolor）、背景（background）和文本（text）属性在最新的 HTML 标准（HTML4 和 XHTML）中已被废弃。W3C 在他们的推荐标准中已删除这些属性。</body></p>
 <p>应该使用层叠样式表（CSS）来定义 HTML 元素的布局和显示属性。</p>
 </blockquote></p>
-<p><link rel="stylesheet" href="APlayer.min.css"></p>
-<p><div id="aplayer"></div></p>
-<script src="APlayer.min.js"></script>
-
 <script>
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
@@ -330,6 +326,11 @@ const ap = new APlayer({
 </script>
 <script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
 <script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+<link rel="stylesheet" href="APlayer.min.css">
+<div id="aplayer"></div>
+<script src="APlayer.min.js"></script>
+
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
