@@ -193,12 +193,12 @@
         </div>
         <div class="col-md-8 col-md-offset-2">
       		
-        <div id="aplayer-obFBfCcR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-pfYgicfs" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-obFBfCcR"),
+            element: document.getElementById("aplayer-pfYgicfs"),
             narrow: true,
             autoplay: true,
             showlrc: false,
@@ -217,6 +217,18 @@
 <footer><strong>夏目友人帐</strong></footer></blockquote>
 <blockquote><p>一言网(Hitokoto.cn)创立于2016年，隶属于萌创Team，目前网站主要提供一句话服务。</p>
 <footer><strong>@一言</strong><cite><a href="https://hitokoto.cn" target="_blank" rel="noopener">hitokoto.cn</a></cite></footer></blockquote>
+<p><div id="aplayer"></div></p>
+<script>
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    audio: [{
+        name: 'name',
+        artist: 'artist',
+        url: 'https://m10.music.126.net/20180810180932/475d06d347a5f25e4287e5c39214289f/ymusic/0f16/5ba1/1aa5/74f5ca3bceddbda695cfd07659aead7f.mp3',
+        cover: 'cover.jpg'
+    }]
+});
+</script>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
